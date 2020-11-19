@@ -1,0 +1,88 @@
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(97deg, #854d27 0%, rgb(18, 17, 49) 100%);
+  font-family: sans-serif;
+}
+
+.search-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+.search-describe {
+  text-align: center;
+  color: rgb(231, 231, 231);
+  margin-bottom: 100px;
+}
+.search-bar {
+  background-color: rgb(218, 218, 218);
+  border: none;
+}
+.search-button {
+  background-color: #DD7230;
+  color: #04030f;
+  font-weight: 700 !important;
+  font-style: italic;
+  border-radius: 0px !important;
+}
+.search-button:hover {
+  background-color: rgb(114, 0, 0);
+}
+
+#food-container {
+  display: flex;
+  justify-content: space-around;
+}
+.food {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background-color: #dd7230;
+  box-shadow: 0px 0px 8px 2px #180f0fc2;
+  padding: 20px;
+}
+.image-container {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.food-title {
+  text-align: center;
+  color: #04030f;
+  font-weight: 900;
+  width: 100%;
+  height: 15vh;
+}
+.ingredient-list {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: justify;
+  height: 30vh;
+  overflow-y: auto;
+  background-color: #faa8755e;
+  color: #04030f;
+  border: none;
+}
+
+.calorie {
+  background-color: #e7e393;
+  color: #04030f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+  margin-top: 20px;
+}
+
+.food-image {
+  box-shadow: 0px 0px 15px 3px rgba(6, 6, 17, 1);
+  border: none;
+}
